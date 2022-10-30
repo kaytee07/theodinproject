@@ -7,7 +7,7 @@ gem 'rails', '6.1.6.1'
 gem 'activeadmin', '~> 2.13'
 gem 'activeadmin_addons', '~> 1.9'
 gem 'active_material', '~> 1.5'
-gem 'acts_as_votable', '~> 0.13'
+gem 'acts_as_votable', '~> 0.14'
 gem 'barnes', '~> 0.0'
 gem 'bootsnap', '~> 1.13', require: false
 gem 'cancancan', '~> 3.4'
@@ -23,7 +23,7 @@ gem 'inline_svg', '~> 1.8'
 gem 'kramdown', '~> 2.4'
 gem 'newrelic_rpm', '~> 8.11'
 gem 'noticed', '~> 1.6'
-gem 'octokit', '~> 5.6'
+gem 'octokit', '~> 6.0'
 gem 'omniauth-github', '~> 2.0'
 gem 'omniauth-google-oauth2', '~> 1.0'
 gem 'omniauth-rails_csrf_protection', '~> 1.0'
@@ -46,10 +46,11 @@ gem 'view_component', '~> 2.74'
 group :development do
   gem 'letter_opener', '~> 1.8'
   gem 'listen', '~> 3.7'
+  gem 'lookbook', '~> 1.1.0'
   gem 'rack-mini-profiler'
   gem 'rubocop', '~> 1.36', require: false
   gem 'rubocop-performance', '~> 1.15', require: false
-  gem 'rubocop-rails', '~> 2.16', require: false
+  gem 'rubocop-rails', '~> 2.17', require: false
   gem 'rubocop-rspec', '~> 2.13', require: false
   gem 'web-console', '~> 4.2'
 end
